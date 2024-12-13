@@ -1,0 +1,21 @@
+.message {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 1.5s steps(20, end) alternate;
+  font-size: 1.2em;
+  color: #2c4553;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 16%;
+  }
+}
